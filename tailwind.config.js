@@ -14,6 +14,15 @@ export default {
     colors: {
       darkBrown: "#282120",
       darkTeal: "#4E6766",
+      olive: "#25291c",
+      white: "#F3EDE2",
+      lightBeige: "#F4EBD0",
+      mdBrown: "#725E54",
+      staleBrown: "#4D473F",
+      mdWhite: "#FFF6EA",
+    },
+    backgroundImage: {
+      "home-bg": "url('./src/assets/LVM Background.png')",
     },
     extend: {},
   },
