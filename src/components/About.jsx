@@ -1,14 +1,15 @@
 import React from "react";
 import Navbar from "./Navbar";
 
-function Home() {
+function About() {
   return (
     <>
       <Navbar />
       <div className="h-screen flex flex-col justify-center items-center bg-home-bg">
-        Home screen
+        About Screen
       </div>
     </>
   );
 }
-export default Home;
+
+export default About;
