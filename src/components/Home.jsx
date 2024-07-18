@@ -1,5 +1,7 @@
 import React from "react";
-import homeImg from "../assets/LVM IMG.png";
+import homeImg1 from "../assets/slicedPhotos/images/home_img_01.jpg";
+import homeImg2 from "../assets/slicedPhotos/images/home_img_02.jpg";
+import homeImg3 from "../assets/slicedPhotos/images/home_img_03.jpg";
 
 function Home() {
   return (
@@ -20,9 +22,11 @@ function Home() {
             Start Your Journey
           </button>
         </a>
-        {/* <div className="">
-          <img src={homeImg} alt="home" className="w-96 md:w-[500px]" />
-        </div> */}
+        <div className="flex flex-row justify-center items-center gap-x-7">
+          <img src={homeImg1} alt="home" className=" rounded-tl-[25%]" />
+          <img src={homeImg2} alt="home" />
+          <img src={homeImg3} alt="home" className=" rounded-tr-[25%]" />
+        </div>
       </div>
 
       {/* <div className="h-screen flex flex-col justify-center items-center bg-home-bg">
