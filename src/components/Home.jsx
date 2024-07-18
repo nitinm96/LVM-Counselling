@@ -78,10 +78,10 @@ function Home() {
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center w-1/2 h-full gap-y-3 text-3xl">
+          <div className="flex flex-col items-center justify-center w-1/2 h-full gap-y-3 text-3xl text-mdBrown">
             <div className="bg-mdWhite/30 p-12 text-center">
               Our Purpose
-              <div className="text-lg text-mdBrown">
+              <div className="text-lg">
                 It is a long established fact that a reader will be 
                 distracted by the readable content of a page when 
                 looking at its layout. The point of using Lorem Ipsum is 
@@ -91,7 +91,7 @@ function Home() {
             </div>
             <div className="bg-mdWhite/30 p-12 text-center">
               Our Mission
-              <div className="text-lg text-mdBrown">
+              <div className="text-lg">
                 It is a long established fact that a reader will be 
                 distracted by the readable content of a page when 
                 looking at its layout.
@@ -99,7 +99,7 @@ function Home() {
             </div>
             <div className="bg-mdWhite/30 p-12 text-center">
               Our Values
-              <div className="text-lg text-mdBrown">
+              <div className="text-lg">
                 It is a long established fact that a reader will be 
                 distracted by the readable content of a page when 
                 looking at its layout. The point of using Lorem Ipsum is 
