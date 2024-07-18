@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       <div className="h-screen flex flex-col justify-center items-center bg-home-bg gap-y-8">
-        <div className="text-staleBrown text-2xl mx-4 md:mx-52 text-center md:text-5xl mt-[100px]">
+        <div className="text-staleBrown text-2xl mx-4 md:mx-52 text-center md:text-5xl">
           It is a long established fact that a reader will be distracted by the
           readable content of a page.
         </div>
@@ -20,7 +20,7 @@ function Home() {
           target="_blank"
         >
           <motion.button
-            className="bg-mdWhite text-darkTeal text-xl m-4 px-8 py-2 rounded-lg hover:bg-darkTeal hover:text-mdWhite transition-all duration-150 ease-out cursor-pointer"
+            className="bg-mdWhite text-darkTeal text-xl mx-4 px-8 py-2 rounded-lg hover:bg-darkTeal hover:text-mdWhite transition-all duration-150 ease-out cursor-pointer"
             initial={{ y: "-5%", opacity: 0 }}
             animate={{ y1: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 2 }}
@@ -28,11 +28,12 @@ function Home() {
             Start Your Journey
           </motion.button>
         </a>
+        {/* DESKTOP IMAGE */}
         <div className="hidden md:flex md:flex-row md:justify-center md:items-center md:gap-x-7">
           <motion.img
             src={homeImg1}
             alt="home"
-            className=" rounded-tl-[25%] h-4/5"
+            className=" rounded-tl-[25%] h-4/6"
             initial={{ x: "-5%", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
@@ -40,7 +41,7 @@ function Home() {
           <motion.img
             src={homeImg2}
             alt="home"
-            className="h-4/5"
+            className="h-4/6"
             initial={{ x: "-5%", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1 }}
@@ -48,12 +49,14 @@ function Home() {
           <motion.img
             src={homeImg3}
             alt="home"
-            className=" rounded-tr-[25%] h-4/5"
+            className=" rounded-tr-[25%] h-4/6"
             initial={{ x: "-5%", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.5 }}
           />
         </div>
+
+        {/* MOBILE IMAGE */}
         <motion.div
           className="md:hidden p-6 bg-darkBrown/25"
           initial={{ x: "-5%", opacity: 0 }}
@@ -64,9 +67,10 @@ function Home() {
         </motion.div>
       </div>
 
-      {/* <div className="h-screen flex flex-col justify-center items-center bg-home-bg">
+       {/*<div className="h-screen flex flex-col justify-center items-center bg-home-bg">
         About Screen
       </div>
+      
       <div className="h-screen flex flex-col justify-center items-center bg-home-bg">
         Services
       </div>

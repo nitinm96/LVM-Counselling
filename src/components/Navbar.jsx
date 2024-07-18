@@ -27,7 +27,7 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="sticky top-0">
+    <div className="sticky top-0 z-30">
       <nav
         id="nav-container"
         className="flex items-center justify-between absolute h-32 top-0 left-0 w-full bg-mdWhite backdrop-blur-md drop-shadow-md z-20"
