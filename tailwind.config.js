@@ -20,6 +20,7 @@ export default {
       mdBrown: "#725E54",
       staleBrown: "#4D473F",
       mdWhite: "#FFF6EA",
+      black: "#000000",
     },
     backgroundImage: {
       "home-bg": "url('./src/assets/LVM Background.png')",
