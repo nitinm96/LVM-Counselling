@@ -33,7 +33,7 @@ function Home() {
           <motion.img
             src={homeImg1}
             alt="home"
-            className=" rounded-tl-[25%] h-4/6"
+            className=" rounded-tl-[25%] h-5/6"
             initial={{ x: "-5%", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
@@ -41,7 +41,7 @@ function Home() {
           <motion.img
             src={homeImg2}
             alt="home"
-            className="h-4/6"
+            className="h-5/6"
             initial={{ x: "-5%", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1 }}
@@ -49,7 +49,7 @@ function Home() {
           <motion.img
             src={homeImg3}
             alt="home"
-            className=" rounded-tr-[25%] h-4/6"
+            className=" rounded-tr-[25%] h-5/6"
             initial={{ x: "-5%", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.5 }}
@@ -67,7 +67,7 @@ function Home() {
         </motion.div>
       </div>
 
-       {/*<div className="h-screen flex flex-col justify-center items-center bg-home-bg">
+      {/*<div className="h-screen flex flex-col justify-center items-center bg-home-bg">
         About Screen
       </div>
       
