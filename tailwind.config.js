@@ -23,7 +23,9 @@ export default {
       black: "#000000",
     },
     backgroundImage: {
-      "home-bg": "url('./src/assets/LVM Background.png')",
+      "home-bg": "url('./src/assets/LVM_Background.png')",
+      "about-bg": "url('./src/assets/LVM_Home_Background.png')",
+
     },
     extend: {},
   },
