@@ -30,7 +30,7 @@ function Navbar() {
     <div className="sticky top-0 z-30">
       <nav
         id="nav-container"
-        className="flex items-center justify-between absolute h-32 top-0 left-0 w-full bg-mdWhite backdrop-blur-md drop-shadow-md z-20"
+        className=" sticky flex items-center justify-between h-32 top-0 left-0 w-full bg-mdWhite backdrop-blur-md drop-shadow-md z-30"
       >
         {/* LOGO HERE */}
         <div className=" flex items-center justify-center cursor-pointer text-6xl font-bold m-4 z-10">

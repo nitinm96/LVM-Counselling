@@ -30,7 +30,7 @@ function Home() {
           </motion.button>
         </a>
         {/* DESKTOP IMAGES */}
-        <div className="hidden md:flex md:flex-row md:justify-center md:items-center md:gap-x-7">
+        <div className="hidden md:flex md:flex-row md:justify-center md:items-center md:gap-x-7 overflow-hidden">
           <motion.img
             src={homeImg1}
             alt="home"
@@ -69,19 +69,21 @@ function Home() {
       </div>
 
       {/* ABOUT ME */}
-      <div className="h-screen flex flex-row justify-center items-center bg-home-bg">
-          <div className="flex flex-col justify-center items-center bg-about-bg w-1/2 h-full text-center gap-y-7">
-            <div className="text-mdWhite text-6xl">
+      <div className="bg-home-bg">
+          <div className="grid grid-cols-1 md:grid-cols-2 text-center md:gap-y-7">
+            
+            <div className="flex flex-col justify-center p-10 bg-about-bg ">
+              <div className="text-mdWhite text-4xl md:text-6xl">
               About Us
             </div>
-            <div className="text-mdWhite text-3xl">
+            <div className="text-mdWhite text-lg md:text-3xl">
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
             </div>
-          </div>
-          <div className="flex flex-col items-center justify-center w-1/2 h-full gap-y-3 text-3xl text-mdBrown">
-            <div className="bg-mdWhite/30 p-12 text-center">
+            </div>
+            <div className="flex flex-col items-center justify-center gap-y-5 m-10 md:m-10 text-xl md:text-3xl text-mdBrown">
+            <div className="bg-mdWhite/30 p-6 md:p-12 text-center">
               Our Purpose
-              <div className="text-lg">
+              <div className="text-sm md:text-lg">
                 It is a long established fact that a reader will be 
                 distracted by the readable content of a page when 
                 looking at its layout. The point of using Lorem Ipsum is 
@@ -89,17 +91,17 @@ function Home() {
                 opposed to using 'Content here, content.
               </div>
             </div>
-            <div className="bg-mdWhite/30 p-12 text-center">
+            <div className="bg-mdWhite/30 p-6 md:p-12 text-center">
               Our Mission
-              <div className="text-lg">
+              <div className="text-sm md:text-lg">
                 It is a long established fact that a reader will be 
                 distracted by the readable content of a page when 
                 looking at its layout.
               </div>
             </div>
-            <div className="bg-mdWhite/30 p-12 text-center">
+            <div className="bg-mdWhite/30 p-6 md:p-12 text-center">
               Our Values
-              <div className="text-lg">
+              <div className="text-sm md:text-lg">
                 It is a long established fact that a reader will be 
                 distracted by the readable content of a page when 
                 looking at its layout. The point of using Lorem Ipsum is 
@@ -107,11 +109,23 @@ function Home() {
               </div>
             </div>            
         </div>
+          </div>
+          
+      </div>
+
+      <div className="flex flex-col justify-center items-center bg-home-bg">
+        <div className="">
+          Services
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="bg-olive/10 p-28 m-3 ">Service Two</div>
+          <div className="bg-olive/10 p-28 m-3 ">Service Three</div>
+          <div className="bg-olive/10 p-28 m-3 ">Service One</div>
+        </div>
       </div>
       {/*
-      <div className="h-screen flex flex-col justify-center items-center bg-home-bg">
-        Services
-      </div>
+      
       <div className="h-screen flex flex-col justify-center items-center bg-home-bg">
         FAQ
       </div>
