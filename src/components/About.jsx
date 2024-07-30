@@ -7,7 +7,7 @@ function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 text-center md:gap-y-7">
             
             <div className="flex flex-col justify-center p-10 bg-about-bg ">
-              <div className="text-mdWhite text-4xl md:text-6xl md:mt-32">
+              <div className="text-mdWhite text-4xl md:text-6xl">
               About Us
             </div>
             <div className="text-mdWhite text-lg md:text-3xl">
@@ -43,10 +43,8 @@ function About() {
               </div>
             </div>            
         </div>
-          </div>
-          
+          </div>        
       </div>
-
     </>
   );
 }

@@ -1,0 +1,31 @@
+[
+  {
+    "id": 0,
+    "title": "15 Minute Complimentary Consultation",
+    "description": "Get matched or choose any of our therapists for a free phone discovery.",
+    "serviceTime": "15 minutes",
+    "cost": "Free",
+    "imageUrl": "https://via.placeholder.com/150",
+    "redirectUrl": "https://calendly.com/"
+  },  
+  {
+    "id": 1,
+    "title": "50 Minute One on One Initial Assessment",
+    "description": "Your first appointment. Book any therapists for an intake session",
+    "serviceTime": "50 minutes",
+    "cost": "$175",
+    "imageUrl": "https://via.placeholder.com/150",
+    "redirectUrl": "https://calendly.com/"
+    
+  },
+  {
+      "id": 2,
+      "title": "50 Minute another service offered by you",
+      "description": "Your first appointment. Book any therapists for an intake session",
+      "serviceTime": "50 minutes",
+      "cost": "$175",
+      "imageUrl": "https://via.placeholder.com/150",
+      "redirectUrl": "https://calendly.com/"
+
+  }
+]
