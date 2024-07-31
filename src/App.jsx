@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <HomeRender />
         <Footer />
@@ -32,12 +34,14 @@ const HomeRender = () => {
         <>
           <About />
           <Services />
+          <Contact />
         </>
       )}
       {path.pathname === '/home' && (
         <>
           <About />
           <Services />
+          <Contact />
         </>
       )}
       
