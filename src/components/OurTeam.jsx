@@ -8,7 +8,7 @@ function OurTeam() {
         <div className="text-staleBrown text-4xl m-4 mt-10 md:text-6xl">
           Our Team
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-10'>
             {teamData.map((teamMember) => (
               <OurTeamCard
                 key={teamMember.id}
