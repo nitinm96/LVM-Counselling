@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What is psychotherapy?",
+        "answer": "Psychotherapy is a form of therapy that helps individuals address and overcome mental health issues, emotional difficulties, and behavioral problems."
+    },
+    {
+        "question": "How long does a therapy session usually last?",
+        "answer": "The duration of a therapy session can vary, but it typically lasts around 50 minutes to an hour."
+    },
+    {
+        "question": "How many therapy sessions will I need?",
+        "answer": "The number of therapy sessions required depends on various factors, including the nature of the issue, individual needs, and progress made during therapy. It is best discussed with your therapist."
+    },
+        {
+            "question": "What can I expect during a therapy session?",
+            "answer": "During a therapy session, you can expect to engage in open and honest conversations with your therapist, explore your thoughts and feelings, and work towards understanding and resolving your concerns."
+        },
+        {
+            "question": "How confidential is therapy?",
+            "answer": "Therapy is confidential, and your therapist is bound by professional ethics to maintain your privacy. However, there are certain legal and ethical exceptions to confidentiality, such as situations involving harm to self or others."
+        },
+        {
+            "question": "How do I choose the right therapist?",
+            "answer": "Choosing the right therapist involves considering factors such as their qualifications, experience, therapeutic approach, and personal compatibility. It's important to find someone you feel comfortable and safe working with."
+        },
+        {
+            "question": "What happens if I don't feel comfortable with my therapist?",
+            "answer": "If you don't feel comfortable with your therapist, it's important to discuss your concerns openly. They may be able to address the issue or refer you to another therapist who may be a better fit for your needs."
+        },
+        {
+            "question": "How much does therapy cost?",
+            "answer": "The cost of therapy can vary depending on factors such as location, therapist's experience, and type of therapy. It's best to discuss the fees with your therapist or check with your insurance provider for coverage options."
+        },
+        {
+            "question": "Do I need a referral from a doctor to see a therapist?",
+            "answer": "In most cases, you don't need a referral from a doctor to see a therapist. However, some insurance plans or specific therapy services may require a referral. It's best to check with your insurance provider or the therapist's office."
+        },
+        {
+            "question": "How can therapy help me?",
+            "answer": "Therapy can help you gain insight into your thoughts, emotions, and behaviors, develop coping strategies, improve relationships, and work towards personal growth and well-being."
+        }
+    ]

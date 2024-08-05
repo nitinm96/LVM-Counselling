@@ -14,7 +14,7 @@ function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto my-14 gap-10 overflow-hidden">
           {/* Services Card */}
           {servicesData.map((services) => (
-            <ServiceCard 
+            <ServiceCard
               serviceTitle={services.title} 
               serviceImg={servicesImage} 
               serviceDescription={services.description} 

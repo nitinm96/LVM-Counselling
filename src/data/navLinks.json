@@ -7,21 +7,26 @@
   {
     "id": 1,
     "name": "About Us",
-    "url": "/about"
+    "url": "/about-us"
   },
   {
     "id": 2,
+    "name": "Our Team",
+    "url": "/our-team"
+  },
+  {
+    "id": 3,
     "name": "Services",
     "url": "/services"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "FAQ",
     "url": "/faq"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Contact Us",
-    "url": "/contact"
+    "url": "/contact-us"
   }
 ]

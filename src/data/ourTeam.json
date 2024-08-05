@@ -1,0 +1,19 @@
+[
+    {
+        "id" : 1,
+        "name": "Lavanya Verma",
+        "qualification": "Registered Psychotherapist, and Counsellor",
+        "qualificationAbbrv": "RP (Q), B.S, M.A.C.P.",
+        "languages": "English, Hindi, Punjabi",
+        "availability": "Weekdays, Weekends, Evenings",
+        "bookLink": "https://calendly.com/",
+        "description":
+        [{
+            "para1": "In the midst of anxiety, depression, or chronic pain, finding the right path to healing can seem daunting. This is where Lavanya Verma steps in as a compassionate guide. As a proficient Psychotherapist at Canadian Therapy, Lavanya is dedicated to providing unwavering support on the journey to wellness.",
+            "para2": "Drawing from a diverse array of therapeutic techniques such as Cognitive Behavioral Therapy (CBT), Mindfulness-Based Cognitive Therapy (MBCT), and person-centered approaches, Lavanya tailors her treatment plans to fit the unique needs of each individual. Specializing in depression, anxiety, South Asian family dynamics, and culturally sensitive therapy, Lavanya serves multicultural and BIPOC populations with understanding and respect.",
+            "para3": "With a Master of Arts in Counselling Psychology from Yorkville University and a background in Applied Science and General Arts and Science from the University of Guelph Humber, Lavanya's academic and professional journey reflects her dedication to addressing the complexity of mental health.",
+            "para4": "Beyond her expertise in areas like chronic pain management, behavioral support for children and adolescents, and psychoeducational coaching, Lavanya fosters a collaborative approach to therapy. By prioritizing rapport-building, creative learning strategies, and cultural sensitivity, she ensures a supportive and effective therapeutic experience.",
+            "para5": "Whether facing personal challenges or seeking tailored support for mental well-being, Lavanya Verma offers a compassionate and effective path forward. Consultations are available for those ready to embark on their journey toward improved mental health."
+        }]
+    }
+]
