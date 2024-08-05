@@ -25,8 +25,8 @@ export default {
       lightGreen: "#ADB690"
     },
     backgroundImage: {
-      "home-bg": "url('./src/assets/LVM_Background.png')",
-      "about-bg": "url('./src/assets/LVM_Home_Background.png')",
+      "home-bg": "url('/src/assets/LVM_Background.png')",
+      "about-bg": "url('/src/assets/LVM_Home_Background.png')",
 
     },
     extend: {},
