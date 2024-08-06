@@ -11,8 +11,8 @@ function Profile() {
   return (
     <div className='flex flex-col justify-center items-center bg-home-bg'>
         <div className='grid grid-cols-1 md:grid-cols-4'>
-            <div className="flex flex-col justify-start items-start bg-brightWhite text-staleBrown gap-y-3 mx-10 md:ml-14 my-8 md:col-span-1">
-                <img src={mePic} alt="team" className=" object-cover w-full h-60" />
+            <div className="flex flex-col justify-start items-start rounded-2xl bg-brightWhite text-staleBrown gap-y-3 mx-10 md:ml-14 my-8 md:col-span-1">
+                <img src={mePic} alt="team" className=" object-cover w-full rounded-t-2xl h-60" />
                 <div className="text-3xl px-5">{name}</div>
                 <div className="text-xl px-5">
                     {role}
@@ -33,6 +33,7 @@ function Profile() {
                 </a>
             </div> 
             <div className='md:col-span-3'>
+               
                 {description.map((desc, index) => (
                      <div key={index} className="flex flex-col justify-center items-center m-10 gap-2 text-staleBrown text-base md:border-darkTeal md:border-l-2">
                        <p className='m-2'>{desc.para1}</p>

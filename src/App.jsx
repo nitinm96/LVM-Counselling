@@ -2,12 +2,12 @@ import React from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import About from "./components/About";
-import Services from "./components/Services";
+import About from "./components/AboutComponent/About";
+import Services from "./components/ServicesComponent/Services";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import Faq from "./components/Faq";
-import OurTeam from "./components/OurTeam";
+import Faq from "./components/FaqComponent/Faq";
+import OurTeam from "./components/OurTeamComponent/OurTeam";
 import Profile from "./components/Profile";
 
 function App() {

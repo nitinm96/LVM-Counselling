@@ -1,6 +1,6 @@
 import React from 'react'
 import OurTeamCard from './OurTeamCard'
-import teamData from '../data/ourTeam.json'
+import teamData from '../../data/ourTeam.json'
 
 function OurTeam() {
   return (

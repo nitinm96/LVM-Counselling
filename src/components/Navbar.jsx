@@ -63,7 +63,7 @@ function Navbar() {
               ))}
               <div className="flex flex-col items-center justify-center text-lg gap-y-3">
                 <a
-                  href="https://calendly.com/"
+                  href="https://calendly.com/nitinminhas18"
                   target="_blank"
                 >
                   <button className="bg-darkTeal text-mdWhite text-xl px-8 py-2 rounded-lg hover:opacity-90 transition-all duration-150 ease-out cursor-pointer ">

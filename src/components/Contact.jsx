@@ -17,10 +17,10 @@ function Contact() {
                     It is a long established fact that a reader will be distracted by the readable content of a page.
                 </div>
                 <div
-                  className="flex flex-row justify-center items-center cursor-pointer md:text-xl"
+                  className="flex flex-row items-center justify-center cursor-pointer bg-brightWhite rounded-lg p-2 text-darkTeal hover:opacity-80 transition-all ease-out "
                   onClick={mailTo}
                 >
-                  <MailIcon fontSize="medium" className="text-brightWhite" />
+                  <MailIcon fontSize="medium" className="text-darkTeal" />
                   lvmcounselling@gmail.com
                 </div>
             </div>

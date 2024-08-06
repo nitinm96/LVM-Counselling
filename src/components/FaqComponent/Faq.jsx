@@ -1,6 +1,6 @@
 import React from 'react'
-import faqData from '../data/faq.json'
-import FaqCard from './FaqCard'
+import faqData from "../../data/faq.json"
+import FaqCard from "./FaqCard"
 function Faq() {
   return (
    <div className="flex flex-col justify-center items-center bg-home-bg">

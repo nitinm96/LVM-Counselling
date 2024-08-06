@@ -1,6 +1,6 @@
 import React from 'react'
-import servicesData from "../data/services.json";
-import servicesImage from "../assets/Services.png";
+import servicesData from "../../data/services.json";
+import servicesImage from "../../assets/Services.png";
 import ServiceCard from './ServiceCard';
 
 function Services() {
